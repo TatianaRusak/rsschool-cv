@@ -1,6 +1,6 @@
 # Tatsiana Rusak
 
-## ![My photo](img/photo.jpg "My photo")
+## ![My photo](assets/img/photo_small.jpg "My photo")
 
 ### Contacts
 
@@ -74,9 +74,9 @@ function makeNegative(num) {
 ### Languages
 
 1. Russian, Belarusian - native
-2. English - Intermediate (B1) (according to the online test at ![EFSet-logo](img/efset-logo.svg "www.efset.org") (www.efset.org))
+2. English - Intermediate (B1) (according to the online test at ![EFSet-logo](assets/img/efset-logo.svg "www.efset.org") (www.efset.org))
 
-   ![Level](img/English-Inter.jpg "English Level") ![Details](img/listening-reading.jpg "Details")
+   ![Level](assets/img/English-Inter.jpg "English Level") ![Details](assets/img/listening-reading.jpg "Details")
 
    >
 
