@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tatiana Rusak</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#summary">About me</a></li>
+          <li class="navigation__item"><a href="#skills">Skills</a></li>
+          <li class="navigation__item"><a href="#contacts">contacts</a></li>
+          <li class="navigation__item"><a href="#education">education</a></li>
+          <li class="navigation__item"><a href="#code">Code</a></li>
+          <li class="navigation__item"><a href="#projects">projects</a></li>
+          <li class="navigation__item"><a href="#languages">languages</a></li>
+        </ul>
+      </nav>
+
+      <div class="profile">
+        <img class="profile__photo" src="assets/img/photo.jpg" alt="My photo">
+        <div class="profile__info">
+          <h1 class="profile__name">Tatiana Rusak</h1>
+          <p class="profile__profession">front-end developer</p>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+	<main>
+		<div class="container container-flex">
+      
+			<div class="left-side">
+        <section class="summary" id="summary">
+          <h2 class="summary__title">About me</h2>
+          <p class="summary__text">I work as a <i>layout designer</i> in a publishing house. And I already have a really great experience in this field. My
+          colleagues speak of me as a responsible employee who can be entrusted with the most urgent project. <br>But now I’m focused
+          on front-end development. I have already completed the course once and received a diploma. Unfortunately, I didn’t
+          change my job. But now… <strong>I’ll take this chance!</strong></p>
+        </section>
+
+        <section class="skills" id="skills">
+          <h2 class="skills__title">Skills</h2>
+          <div class="skills__wrap">
+            <ul class="skills__list">
+              <li class="skils__item">HTML5</li>
+              <li class="skils__item">CSS3 (SASS, SCSS, BEM)</li>
+              <li class="skils__item">JavaScript (Basic)</li>
+              <li class="skils__item">Git, GitHub</li>
+              <li class="skils__item">Photoshop, Illustrator, InDesign</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+          <h2 class="contacts__title">contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item"><span class="text-bold">Location:</span> Minsk, Belarus</li>
+            <li class="contacts__item"><span class="text-bold">Phone:</span><a class="contacts__link" href="tel:+375295661390"> +375 29 566 13 90</a></li>
+            <li class="contacts__item"><span class="text-bold">E-mail:</span> <a class="contacts__link" href="mailto:tatianarusak85@gmail.com">tatianarusak85@gmail.com</a></li>
+            <li class="contacts__item"><span class="text-bold">GitHub:</span> <a class="contacts__link" href="https://github.com/TatianaRusak">TatianaRusak</a> </li>
+            <li class="contacts__item"><span class="text-bold">Discord:</span><a class="contacts__link" href="https://discordapp.com/users/913398453462265859/"> Tatiana (@TatianaRusak)</a></li>
+          </ul>        
+        </section>
+
+			</div>
+
+      <div class="right-side">
+        <section class="education" id="education">
+          <h2 class="education__title">Education</h2>
+            <div class="education__wrap">
+              <h3 class="education__subtitle">University</h3>
+              <ul class="education__list">
+                <li class="education__item">Belarusian State Technological University <i>(Publishing, editor technologist)</i></li>
+              </ul>
+              
+              <h3 class="education__subtitle">Courses</h3>
+              <ul class="education__list">
+                <li class="education__item">Belarusian National Technical University <i>(Programmer/Web-Designer)</i></li>
+                <li class="education__item">RS Schools «JavaScript/Front-end. Stage 0» <i>(in progress)</i></li>
+                <li class="education__item">Udemy - WEB Developer 2021 <i>(in progress)</i></li>
+              </ul>
+            </div>
+        </section>
+
+
+
+        <section class="code" id="code">
+          <h2 class="code__title">Code Example</h2>
+          <div class="code__wrap">
+            <pre class="code__example">
+
+              function makeNegative(num) {
+
+                  if (num > 0) {
+
+                    return -num;
+
+                  } else {
+
+                    return num;
+
+                  }
+              }
+            </pre>
+          </div>
+        </section>
+
+        <section class="projects" id="projects">
+          <h2 class="projects__title">Projects</h2>
+          <div class="projects__wrap">
+            <ul class="projects__list">
+              <li class="projects__item"><a href="https://tatianarusak.github.io/piroll/" class="projects__link" target="_blank"><img src="assets/img/piroll.jpg" alt="piroll"></a></li>
+              <li class="projects__item"><a href="https://tatianarusak.github.io/Uber" class="projects__link" target="_blank"><img src="assets/img/uber.jpg" alt="uber"></a></li>
+              <li class="projects__item"><a href="https://tatianarusak.github.io/Pulse/" class="projects__link" target="_blank"><img src="assets/img/pulse.jpg" alt="pulse"></a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="languages" id="languages">
+          <h2 class="languages__title">Languages</h2>
+          <div class="languages__wrap">
+            <ul class="languages__list">
+              <li class="languages__item">Russian, Belarusian - native</li>
+              <li class="languages__item">English - Intermediate (B1)</li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+		</div>
+	</main>
+
+  	<footer class="footer">
+		  <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__github">
+            <a class="footer__github-link" href="https://github.com/TatianaRusak"><img src="assets/img/github-logo.png"
+                alt="github logo"></a>
+          </div>
+          <p class="footer__year">2022</p>
+          <div class="footer__rs-link"><a href="https://rs.school/js/"><img class="footer__rs-logo" src="assets/img/rs_school.svg" alt="Rs School logo"></a></div>
+        </div>
+      </div>
+	</footer>
+    
+</body>
+</html>
